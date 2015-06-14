@@ -9,13 +9,13 @@
 
 To get started, clone the repo:
 
-```bash
+```sh
 git clone https://github.com/saucelabs/karma-sauce-example.git && cd karma-sauce-example
 ```
 
 Then run the following command to install the Karma command line interface globally and this repo's local node dependencies:
 
-```bash
+```sh
 npm install -g karma-cli && npm install
 ```
 
