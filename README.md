@@ -16,14 +16,14 @@ git clone https://github.com/saucelabs/karma-sauce-example.git && cd karma-sauce
 Then run the following command to install the Karma command line interface globally and this repo's local node dependencies:
 
 ```bash
-npm install -g karma-cli && npm install 
+npm install -g karma-cli && npm install
 ```
 
-*Note: make sure you have [node.js](http://nodejs.org/) installed before running the above command.* 
+*Note: make sure you have [node.js](http://nodejs.org/) installed before running the above command.*
 
 ## Running Karma locally
 
-You then can run Karma locally to see how it works with the `karma start` command. Try saving a source file in the `src` folder or a test file in the `test` folder to see Karma automatically re-run the tests on the latest source code. 
+You then can run Karma locally to see how it works with the `karma start` command. Try saving a source file in the `src` folder or a test file in the `test` folder to see Karma automatically re-run the tests on the latest source code.
 
 By default, this example runs [jasmine](http://jasmine.github.io/2.0/introduction.html) tests in Chrome and Firefox on your local machine, and you can add more browsers that you have installed in the `karma.conf.js`'s `browsers` array.
 
